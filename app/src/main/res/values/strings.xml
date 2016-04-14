@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CombatingTheFlu</string>
+    <string name="welcome">Welcome!</string>
+    <string name="msgInitial">The flu arrived and came with great force, so this game will help us to know how prevent it.</string>
+
+    <string name="textName">Name:</string>
+    <string name="textEmail">Email:</string>
+
+    <string name="btnEnter">Enter</string>
+
+    <string name="msgInputData">Enter your data to begin.</string>
+</resources>

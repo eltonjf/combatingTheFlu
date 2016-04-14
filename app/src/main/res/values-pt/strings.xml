@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">O Jogo da gripe</string>
+    <string name="welcome">Bem vindo!</string>
+    <string name="msgInitial">A gripe chegou e veio com muita força, por isso este jogo vai nos ajudar a preveni-la.</string>
+
+    <string name="textName">Nome:</string>
+    <string name="textEmail">Email:</string>
+
+    <string name="btnEnter">Entrar</string>
+
+    <string name="msgInputData">Insira seus dados para iniciar.</string>
+</resources>
