@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+    android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="com.example.android.combatingtheflu.Question1Activity">
+    >
 
     <TextView
         android:layout_width="wrap_content"
@@ -15,12 +13,12 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/question1"/>
+        android:src="@drawable/snize"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/question1"
+        android:text="@string/question2"
         style="@style/textStyle"/>
 
     <LinearLayout
@@ -39,7 +37,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/rightQuestion"
-                android:id="@+id/radioButtonQ1True"
+                android:id="@+id/radioButtonQ2True"
                 android:paddingRight="30dp"
                 android:onClick="onRadioButtonClicked"/>
             <RadioButton
@@ -47,7 +45,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/wrongQuestion"
-                android:id="@+id/radioButtonQ1False"
+                android:id="@+id/radioButtonQ2False"
                 android:onClick="onRadioButtonClicked"/>
         </RadioGroup>
     </LinearLayout>
@@ -55,20 +53,9 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textViewAnswerQ1"
+        android:id="@+id/textViewAnswerQ2"
         style="@style/textStyle"
         android:visibility="invisible"/>
-<!--
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textViewWrongAnswerQ1"
-        android:text="@string/answerWrongtQ1"
-        style="@style/textStyle"
-        android:textColor="#D32F2F"
-        android:visibility="visible"/>
-        -->
-
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -76,15 +63,6 @@
         android:orientation="horizontal"
         android:layout_gravity="center">
 
-        <!--
-        <Button
-            android:id="@+id/btnAnswer"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/btnAnswer"
-
-            android:layout_gravity="center"/>
--->
 
         <Button
             android:id="@+id/btnNext"

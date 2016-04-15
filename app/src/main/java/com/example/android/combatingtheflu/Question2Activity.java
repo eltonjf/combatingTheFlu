@@ -12,50 +12,52 @@ import android.widget.Toast;
 /**
  * Created by elton on 15/04/2016.
  */
-public class Question1Activity extends Activity {
+public class Question2Activity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.question1_activity);
+        setContentView(R.layout.question2_activity);
     }
 
 
     public void next(View view){
-        boolean checkedFalse = ((RadioButton) findViewById(R.id.radioButtonQ1False)).isChecked();
-        boolean checkedTrue = ((RadioButton) findViewById(R.id.radioButtonQ1True)).isChecked();
+        boolean checkedFalse = ((RadioButton) findViewById(R.id.radioButtonQ2False)).isChecked();
+        boolean checkedTrue = ((RadioButton) findViewById(R.id.radioButtonQ2True)).isChecked();
 
         if(checkedFalse == false && checkedTrue == false){
             Toast.makeText(this, R.string.radioButtonError, Toast.LENGTH_SHORT).show();
             return;
         }else{
-            Intent intent = new Intent(this, Question2Activity.class);
+            Intent intent = new Intent(this, Question3Activity.class);
             startActivity(intent);
         }
     }
+
 
     public void onRadioButtonClicked(View view) {
         // Is the button now checked?
         boolean checked = ((RadioButton) view).isChecked();
 
-        TextView  textAnswer = (TextView) findViewById(R.id.textViewAnswerQ1);
+        TextView textAnswer = (TextView) findViewById(R.id.textViewAnswerQ2);
 
         // Check which radio button was clicked
         switch(view.getId()) {
-            case R.id.radioButtonQ1True:
+            case R.id.radioButtonQ2True:
                 if (checked)
-                    textAnswer.setText(R.string.answerWrongQ1);
-                    textAnswer.setVisibility(View.VISIBLE);
-                    textAnswer.setTextColor(Color.parseColor("#D32F2F"));
+                    textAnswer.setText(R.string.answerRightQ2);
+                textAnswer.setVisibility(View.VISIBLE);
+                textAnswer.setTextColor(Color.parseColor("#0288D1"));
 
                 break;
-            case R.id.radioButtonQ1False:
+            case R.id.radioButtonQ2False:
                 if (checked)
-                    textAnswer.setText(R.string.answerRightQ1);
-                    textAnswer.setVisibility(View.VISIBLE);
-                    textAnswer.setTextColor(Color.parseColor("#0288D1"));
+                    textAnswer.setText(R.string.answerWrongQ2);
+                textAnswer.setVisibility(View.VISIBLE);
+                textAnswer.setTextColor(Color.parseColor("#D32F2F"));
 
                 break;
         }
     }
+
 }

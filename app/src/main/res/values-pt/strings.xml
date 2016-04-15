@@ -12,14 +12,20 @@
     <string name="msgInputData">Insira seus dados para iniciar.</string>
 
     <string name="informationQ1">Escolha Certo ou errado para a situação mostrada abaixo.</string>
-    <string name="question1">Você está gripado e entra em ambiente fechado cheio de gente.</string>
+
     <string name="rightQuestion">Certo</string>
     <string name="wrongQuestion">Errado</string>
-    <string name="answerRightQ1">Resposta correta. \n Se você esta com a gripe, você deve evitar ambiente fechado, para não espalhar a gripe.</string>
-    <string name="answerWrongQ1">Resposta errada. \n Se você esta com a gripe, você deve evitar ambiente fechado, para não espalhar a gripe.</string>
     <string name="btnBack">Voltar</string>
     <string name="btnAnswer">Responder</string>
     <string name="btnNext">Próxima</string>
+    <string name="radioButtonError">Você deve escolher uma opção.</string>
 
+    <string name="question1">Você está gripado e entra em ambiente fechado cheio de gente.</string>
+    <string name="answerRightQ1">Resposta correta. \n Se você esta com a gripe, você deve evitar ambiente fechado, para não espalhar a gripe.</string>
+    <string name="answerWrongQ1">Resposta errada. \n Se você esta com a gripe, você deve evitar ambiente fechado, para não espalhar a gripe.</string>
+
+    <string name="question2">Você deve espirrar como na imagem acima?</string>
+    <string name="answerRightQ2">Resposta Correta! \n Quando for espirrar você deve usar um lenço ou virar e espirrar em cima do braço</string>
+    <string name="answerWrongQ2">Resposta errada. \n Quando for espirrar você deve usar um lenço ou virar e espirrar em cima do braço</string>
 
 </resources>
