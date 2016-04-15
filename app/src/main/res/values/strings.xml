@@ -9,4 +9,14 @@
     <string name="btnEnter">Enter</string>
 
     <string name="msgInputData">Enter your data to begin.</string>
+
+    <string name="informationQ1">Choose Right or Wrong for the situation shown below.</string>
+    <string name="question1">You are with the flu and get in a closed enviroment with crowd people</string>
+    <string name="rightQuestion">Right</string>
+    <string name="wrongQuestion">Wrong</string>
+    <string name="answerRightQ1">Right Answer! \n If you are with the flu, you should avoid closed enviroment, to dont to spread the flu</string>
+    <string name="answerWrongQ1">Wrong Answer. \n If you are with the flu, you should avoid closed enviroment, to dont to spread the flu</string>
+    <string name="btnBack">Back</string>
+    <string name="btnAnswer">Answer</string>
+    <string name="btnNext">Next</string>
 </resources>
