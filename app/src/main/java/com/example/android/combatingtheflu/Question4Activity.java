@@ -15,10 +15,16 @@ import android.widget.Toast;
  */
 public class Question4Activity extends AppCompatActivity {
 
+    String name;
+    int score;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.question4_activity);
+
+        score = getIntent().getIntExtra("score", 0);
+        name = getIntent().getStringExtra("name");
     }
 
     public void next(View view){
@@ -30,6 +36,9 @@ public class Question4Activity extends AppCompatActivity {
             return;
         }else{
             Intent intent = new Intent(this, Question5Activity.class);
+
+            intent.putExtra("score", score);
+            intent.putExtra("name", name);
             startActivity(intent);
         }
     }
@@ -49,6 +58,7 @@ public class Question4Activity extends AppCompatActivity {
                 textAnswer.setVisibility(View.VISIBLE);
                 textAnswer.setTextColor(Color.parseColor("#0288D1"));
 
+                score += 1;
                 break;
             case R.id.radioButtonQ4False:
                 if (checked)

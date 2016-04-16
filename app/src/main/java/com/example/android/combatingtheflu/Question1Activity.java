@@ -16,11 +16,16 @@ import android.widget.Toast;
  */
 public class Question1Activity extends AppCompatActivity {
 
+    String name;
+    int score = 0;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.question1_activity);
 
+        score = getIntent().getIntExtra("score", 0);
+        name = getIntent().getStringExtra("name");
     }
 
 
@@ -33,6 +38,9 @@ public class Question1Activity extends AppCompatActivity {
             return;
         }else{
             Intent intent = new Intent(this, Question2Activity.class);
+
+            intent.putExtra("score", score);
+            intent.putExtra("name", name);
             startActivity(intent);
         }
     }
@@ -58,6 +66,7 @@ public class Question1Activity extends AppCompatActivity {
                     textAnswer.setVisibility(View.VISIBLE);
                     textAnswer.setTextColor(Color.parseColor("#0288D1"));
 
+                    score += 1;
                 break;
         }
     }

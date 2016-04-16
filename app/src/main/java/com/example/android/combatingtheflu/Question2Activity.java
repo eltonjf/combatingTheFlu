@@ -16,10 +16,16 @@ import android.widget.Toast;
  */
 public class Question2Activity extends AppCompatActivity {
 
+    String name;
+    int score;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.question2_activity);
+
+        name = getIntent().getStringExtra("name");
+        score = getIntent().getIntExtra("score", 0);
     }
 
 
@@ -32,6 +38,9 @@ public class Question2Activity extends AppCompatActivity {
                 return;
             }else{
                 Intent intent = new Intent(this, Question3Activity.class);
+
+                intent.putExtra("score", score);
+                intent.putExtra("name", name);
                 startActivity(intent);
             }
         }
@@ -50,6 +59,8 @@ public class Question2Activity extends AppCompatActivity {
                         textAnswer.setText(R.string.answerRightQ2);
                     textAnswer.setVisibility(View.VISIBLE);
                     textAnswer.setTextColor(Color.parseColor("#0288D1"));
+
+                    score += 1;
 
                     break;
                 case R.id.radioButtonQ2False:

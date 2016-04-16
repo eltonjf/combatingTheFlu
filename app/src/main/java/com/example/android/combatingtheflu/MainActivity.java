@@ -28,6 +28,10 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
+        int score = 0;
+
+        intent.putExtra("score", score);
+        intent.putExtra("name", txt);
         startActivity(intent);
     }
 }

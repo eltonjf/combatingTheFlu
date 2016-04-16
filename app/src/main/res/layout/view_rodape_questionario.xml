@@ -1,33 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="com.example.android.combatingtheflu.Question1Activity">
-
-    <TextView
-        android:id="@+id/teste"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/informationQ1"
-        style="@style/textStyle"/>
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/question1"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/question1"
-        style="@style/textStyle"/>
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -45,7 +22,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/rightQuestion"
-                android:id="@+id/radioButtonQ1True"
+                android:id="@+id/radioButtonQ2True"
                 android:paddingRight="30dp"
                 android:onClick="onRadioButtonClicked"/>
             <RadioButton
@@ -53,7 +30,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/wrongQuestion"
-                android:id="@+id/radioButtonQ1False"
+                android:id="@+id/radioButtonQ2False"
                 android:onClick="onRadioButtonClicked"/>
         </RadioGroup>
     </LinearLayout>
@@ -61,7 +38,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textViewAnswerQ1"
+        android:id="@+id/textViewAnswerQ2"
         style="@style/textStyle"
         android:visibility="invisible"/>
 
@@ -70,6 +47,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_gravity="center">
+
 
         <Button
             android:id="@+id/btnNext"
@@ -81,4 +59,3 @@
     </LinearLayout>
 
 </LinearLayout>
-</ScrollView>

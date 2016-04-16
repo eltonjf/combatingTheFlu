@@ -42,9 +42,10 @@
     <string name="answerWrongQ5">Resposta errada. \n Você não deve compartilhar itens de uso pessoal.</string>
 
     <string name="congratFinal">Parabéns, </string>
-    <string name="informationFinal">Agora você sabe como se prevenir da gripe. </string>
-    <string name="resultFinal">Você marcou </string>
+    <string name="informationFinal">Agora você sabe como se prevenir da gripe. \n</string>
+    <string name="resultFinal">Total de Pontos \n</string>
     <string name="btnFinal">Enviar por email</string>
 
-    <string name="messageEmail">Certificado \n Certifico que NOME sabe como se prevenir da gripe</string>
+    <string name="messageEmail">Certificado \n \n Certifico que NOME sabe como se prevenir da gripe</string>
+    <string name="messageEmailStudy">Sua pontuação foi baixa, faça novamente para aprender mais! </string>
 </resources>

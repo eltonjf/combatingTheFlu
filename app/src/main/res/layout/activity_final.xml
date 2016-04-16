@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -10,22 +15,23 @@
     android:layout_marginLeft="15dp"
     style="@style/textStyle"/>
 
-    <TextView
+    <!--<TextView
+        android:padding="10dp"
         android:id="@+id/inputFinal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/informationFinal"
         style="@style/textStyle"/>
-
+-->
     <TextView
         android:layout_marginTop="30dp"
         android:id="@+id/inputResultFinal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/resultFinal"
         android:layout_gravity="center"
         android:textSize="25sp"
-        android:padding="10dp"/>
+        android:padding="10dp"
+        style="@style/textStyle"/>
 
     <Button
         android:layout_marginTop="55dp"
@@ -37,3 +43,4 @@
         android:onClick="sendEmail"/>
 
 </LinearLayout>
+</ScrollView>
