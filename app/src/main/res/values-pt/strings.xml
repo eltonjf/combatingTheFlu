@@ -28,4 +28,15 @@
     <string name="answerRightQ2">Resposta Correta! \n Quando for espirrar você deve usar um lenço ou virar e espirrar em cima do braço</string>
     <string name="answerWrongQ2">Resposta errada. \n Quando for espirrar você deve usar um lenço ou virar e espirrar em cima do braço</string>
 
+    <string name="question3">Você NÃO deve passar as mãos nos olhos, boca e nariz antes de lava-las?</string>
+    <string name="answerRightQ3">Resposta Correta! \n Só passe as mãos nos olhos, nariz e boca depois de lava-las, elas podem estar contaminadas.</string>
+    <string name="answerWrongQ3">Resposta errada. \n Só passe as mãos nos olhos, nariz e boca depois de lava-las, elas podem estar contaminadas.</string>
+
+    <string name="question4">Você deve lavar as mãos constantemente com água e sabão ou com alcool em gel?</string>
+    <string name="answerRightQ4">Resposta Correta! \n Sempre que puder lava as mãos com água e sabão ou alcool em gel.</string>
+    <string name="answerWrongQ4">Resposta errada. \n Sempre que puder lava as mãos com água e sabão ou alcool em gel.</string>
+
+    <string name="question5">Você deve emprestar sus itens de uso pessoal para todos?</string>
+    <string name="answerRightQ5">Resposta Correta! \n Você não deve compartilhar itens de uso pessoal.</string>
+    <string name="answerWrongQ5">Resposta errada. \n Você não deve compartilhar itens de uso pessoal.</string>
 </resources>

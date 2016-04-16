@@ -28,5 +28,16 @@
     <string name="answerRightQ2">Right Answer! \n When you sneeze you should use a scarf or turn and sneezing on arm</string>
     <string name="answerWrongQ2">Wrong Answer. \n When you sneeze you should use a scarf or turn and sneezing on arm</string>
 
+    <string name="question3">Shouldnt you pass your hands in eyes, mouth and nose without clean it</string>
+    <string name="answerRightQ3">Right Answer! \n You should pass the hands in eyes, mouth and nose after clean it, it can be contaminated.</string>
+    <string name="answerWrongQ3">Wrong Answer. \n You should pass the hands in eyes, mouth and nose after clean it, it can be contaminated.</string>
+
+    <string name="question4">Should you clean your hands with water and soap or alcohol gel? </string>
+    <string name="answerRightQ4">Right Answer! \n You should clean hands with water and soap or alcohol gel to prevent the flu.</string>
+    <string name="answerWrongQ4">Wrong Answer. \n You should clean hands with water and soap or alcohol gel to prevent the flu.</string>
+
+    <string name="question5">Should you borrow your personal use itens for everyone? </string>
+    <string name="answerRightQ5">Right Answer! \n You shouldnt share your personal use itens.</string>
+    <string name="answerWrongQ5">Wrong Answer. \n You shouldnt share your personal use itens.</string>
 
 </resources>

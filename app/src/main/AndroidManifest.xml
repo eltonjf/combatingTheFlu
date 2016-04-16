@@ -19,6 +19,8 @@
         <activity android:name=".Question1Activity" />
         <activity android:name=".Question2Activity" />
         <activity android:name=".Question3Activity" />
+        <activity android:name=".Question4Activity" />
+        <activity android:name=".Question5Activity" />
 
 
     </application>

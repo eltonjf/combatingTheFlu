@@ -21,42 +21,42 @@ public class Question2Activity extends Activity {
     }
 
 
-    public void next(View view){
-        boolean checkedFalse = ((RadioButton) findViewById(R.id.radioButtonQ2False)).isChecked();
-        boolean checkedTrue = ((RadioButton) findViewById(R.id.radioButtonQ2True)).isChecked();
+   public void next(View view){
+            boolean checkedFalse = ((RadioButton) findViewById(R.id.radioButtonQ2False)).isChecked();
+            boolean checkedTrue = ((RadioButton) findViewById(R.id.radioButtonQ2True)).isChecked();
 
-        if(checkedFalse == false && checkedTrue == false){
-            Toast.makeText(this, R.string.radioButtonError, Toast.LENGTH_SHORT).show();
-            return;
-        }else{
-            Intent intent = new Intent(this, Question3Activity.class);
-            startActivity(intent);
+            if(checkedFalse == false && checkedTrue == false){
+                Toast.makeText(this, R.string.radioButtonError, Toast.LENGTH_SHORT).show();
+                return;
+            }else{
+                Intent intent = new Intent(this, Question3Activity.class);
+                startActivity(intent);
+            }
         }
-    }
 
 
-    public void onRadioButtonClicked(View view) {
-        // Is the button now checked?
-        boolean checked = ((RadioButton) view).isChecked();
+        public void onRadioButtonClicked(View view) {
+            // Is the button now checked?
+            boolean checked = ((RadioButton) view).isChecked();
 
-        TextView textAnswer = (TextView) findViewById(R.id.textViewAnswerQ2);
+            TextView textAnswer = (TextView) findViewById(R.id.textViewAnswerQ2);
 
-        // Check which radio button was clicked
-        switch(view.getId()) {
-            case R.id.radioButtonQ2True:
-                if (checked)
-                    textAnswer.setText(R.string.answerRightQ2);
-                textAnswer.setVisibility(View.VISIBLE);
-                textAnswer.setTextColor(Color.parseColor("#0288D1"));
+            // Check which radio button was clicked
+            switch(view.getId()) {
+                case R.id.radioButtonQ2True:
+                    if (checked)
+                        textAnswer.setText(R.string.answerRightQ2);
+                    textAnswer.setVisibility(View.VISIBLE);
+                    textAnswer.setTextColor(Color.parseColor("#0288D1"));
 
-                break;
-            case R.id.radioButtonQ2False:
-                if (checked)
-                    textAnswer.setText(R.string.answerWrongQ2);
-                textAnswer.setVisibility(View.VISIBLE);
-                textAnswer.setTextColor(Color.parseColor("#D32F2F"));
+                    break;
+                case R.id.radioButtonQ2False:
+                    if (checked)
+                        textAnswer.setText(R.string.answerWrongQ2);
+                    textAnswer.setVisibility(View.VISIBLE);
+                    textAnswer.setTextColor(Color.parseColor("#D32F2F"));
 
-                break;
+                    break;
         }
     }
 

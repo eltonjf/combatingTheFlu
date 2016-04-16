@@ -12,12 +12,12 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/question3"/>
+        android:src="@drawable/question5"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/question3"
+        android:text="@string/question5"
         style="@style/textStyle"/>
 
     <LinearLayout
@@ -36,7 +36,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/rightQuestion"
-                android:id="@+id/radioButtonQ3True"
+                android:id="@+id/radioButtonQ5True"
                 android:paddingRight="30dp"
                 android:onClick="onRadioButtonClicked"/>
             <RadioButton
@@ -44,7 +44,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/wrongQuestion"
-                android:id="@+id/radioButtonQ3False"
+                android:id="@+id/radioButtonQ5False"
                 android:onClick="onRadioButtonClicked"/>
         </RadioGroup>
     </LinearLayout>
@@ -52,7 +52,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textViewAnswerQ3"
+        android:id="@+id/textViewAnswerQ5"
         style="@style/textStyle"
         android:visibility="invisible"/>
 
