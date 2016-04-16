@@ -1,16 +1,19 @@
 package com.example.android.combatingtheflu;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.RadioButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 /**
  * Created by Elton on 15/04/2016.
  */
-public class Question5Activity extends Activity {
+public class Question5Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +43,19 @@ public class Question5Activity extends Activity {
                 textAnswer.setTextColor(Color.parseColor("#0288D1"));
 
                 break;
+        }
+    }
+
+    public void next(View view){
+        boolean checkedFalse = ((RadioButton) findViewById(R.id.radioButtonQ5False)).isChecked();
+        boolean checkedTrue = ((RadioButton) findViewById(R.id.radioButtonQ5True)).isChecked();
+
+        if(checkedFalse == false && checkedTrue == false){
+            Toast.makeText(this, R.string.radioButtonError, Toast.LENGTH_SHORT).show();
+            return;
+        }else{
+            Intent intent = new Intent(this, FinalActivity.class);
+            startActivity(intent);
         }
     }
 }

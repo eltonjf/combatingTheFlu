@@ -21,6 +21,7 @@
         <activity android:name=".Question3Activity" />
         <activity android:name=".Question4Activity" />
         <activity android:name=".Question5Activity" />
+        <activity android:name=".FinalActivity" />
 
 
     </application>

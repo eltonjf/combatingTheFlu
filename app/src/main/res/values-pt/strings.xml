@@ -5,6 +5,7 @@
     <string name="msgInitial">A gripe chegou e veio com muita força, por isso este jogo vai nos ajudar a preveni-la.</string>
 
     <string name="textName">Nome:</string>
+    <string name="nameError">Por favor insira seu nome!</string>
     <string name="textEmail">Email:</string>
 
     <string name="btnEnter">Entrar</string>
@@ -39,4 +40,11 @@
     <string name="question5">Você deve emprestar sus itens de uso pessoal para todos?</string>
     <string name="answerRightQ5">Resposta Correta! \n Você não deve compartilhar itens de uso pessoal.</string>
     <string name="answerWrongQ5">Resposta errada. \n Você não deve compartilhar itens de uso pessoal.</string>
+
+    <string name="congratFinal">Parabéns, </string>
+    <string name="informationFinal">Agora você sabe como se prevenir da gripe. </string>
+    <string name="resultFinal">Você marcou </string>
+    <string name="btnFinal">Enviar por email</string>
+
+    <string name="messageEmail">Certificado \n Certifico que NOME sabe como se prevenir da gripe</string>
 </resources>

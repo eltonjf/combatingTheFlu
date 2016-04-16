@@ -4,6 +4,7 @@
     <string name="msgInitial">The flu arrived and came with great force, so this game will help us to know how prevent it.</string>
 
     <string name="textName">Name:</string>
+    <string name="nameError">Please put your name!</string>
     <string name="textEmail">Email:</string>
 
     <string name="btnEnter">Enter</string>
@@ -40,4 +41,10 @@
     <string name="answerRightQ5">Right Answer! \n You shouldnt share your personal use itens.</string>
     <string name="answerWrongQ5">Wrong Answer. \n You shouldnt share your personal use itens.</string>
 
+    <string name="congratFinal">Congratulations, </string>
+    <string name="informationFinal">Now you know how to prevent yourself of the flu.</string>
+    <string name="resultFinal">You get </string>
+    <string name="btnFinal">Send by email</string>
+
+    <string name="messageEmail">Certificate \n Certify that NOME know how to prevent the flu.</string>
 </resources>
